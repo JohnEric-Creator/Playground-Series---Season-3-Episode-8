@@ -1,0 +1,16 @@
+Root Mean Squared Error (RMSE)
+
+Submissions are scored on the root mean squared error. RMSE is defined as:
+
+RMSE=√1NN∑i=1(yi−ˆyi)2
+
+where ˆyi is the predicted value and yi is the original value for each instance i.
+Submission File
+
+For each id in the test set, you must predict the value for the target price. The file should contain a header and have the following format:
+
+id,price
+193573,3969.155
+193574,8512.67
+193575,1122.34
+etc.
